@@ -1,0 +1,38 @@
+#title {
+    color: white;
+}
+
+#html {
+    width: 5%;
+}
+
+#js {
+    width: 5%;
+}
+
+#lang {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.info {
+    color: white;
+}
+
+.contact_info {
+    color: white;
+}
+
+.skills {
+    color:white;
+}
+
+body {
+    background-color: #121212;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
