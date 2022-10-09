@@ -47,6 +47,23 @@
     cursor: pointer;
 }
 
+.projbtn {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+.projbtn:hover {
+    cursor: pointer;
+}
+
+.projname:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 40px 0 #393359;
+    background-color: #a272cb;
+}
+
 .page {
     text-align: center;
     font-family: Helvetica,Arial;
@@ -59,8 +76,8 @@
 
 .info {
     color: white;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .title {
@@ -72,7 +89,7 @@
 }
 
 .links {
-    word-spacing: 15px;
+    word-spacing: 14px;
 }
 
 .skills {
@@ -89,8 +106,38 @@
     50% { border-color: #72bdcb; }
 }
 
+::-webkit-scrollbar {
+    background: #292d3e;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #03DAC6;
+    border-radius: 10px;
+}
+
 body {
     background-color: #292d3e;
+}
+
+table, th, td {
+    color: white;
+    margin-top: 1%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+}
+
+th, td {
+    background-color: #393359;
+    border: 1px solid #a272cb;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+th {
+    font-size: 16px;
 }
 
 a {
