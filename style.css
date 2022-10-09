@@ -1,51 +1,99 @@
-#title {
-    color: white;
-    margin-left: 40.2%;
-    padding-top: 60px;
-    font-family: Helvetica,Arial;
-}
-
 #lang {
     width: 50px;
     height: 50px;
     background-size: cover;
 }
 
+.typewriter {
+    overflow: hidden;
+    color: #a272cb;
+    font-size: 3em;
+    border-right: .15em solid #72bdcb;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    max-width: 475px;
+    display: inline-block;
+    animation:
+        typing 2s steps(30, end),
+        blink-caret 1s step-end infinite;
+}
+
+.link {
+    color: #8372cb;
+    transition-duration: 0.4s;
+}
+
+.link:hover {
+    color: #72bdcb;
+    text-shadow: -1px -1px #393359;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #7263b0;
+    transition-duration: 0.4s;
+    color: white;
+    border-radius: 12px;
+    padding: 5px 12px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: #72bdcb;
+    box-shadow: 0 2px 20px 0 #393359;
+    cursor: pointer;
+}
+
+.page {
+    text-align: center;
+    font-family: Helvetica,Arial;
+}
+
 .name {
-    color: blue;
+    color: #03DAC6;
     background: none;
 }
 
 .info {
     color: white;
-    font-family: Helvetica,Arial;
-    width: 40%;
-    text-align: justify;
-    margin-left: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.title {
+    color: white;
 }
 
 .contact {
     color: white;
-    text-align: justify;
-    margin-left: 44%;
 }
 
 .links {
     word-spacing: 15px;
-    margin-left: -5%;
 }
 
 .skills {
     color:white;
-    text-align: center;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #72bdcb; }
 }
 
 body {
-    background-color: #121212;
+    background-color: #292d3e;
 }
 
 a {
     text-align: center;
     text-decoration: none;
-    color: blueviolet;
 }
