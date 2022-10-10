@@ -4,6 +4,47 @@
     background-size: cover;
 }
 
+#repoinfo {
+    color: white;
+    margin-bottom: 0px;
+}
+
+#java {
+    color: red;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+#py {
+    color: lightskyblue;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+#js {
+    color: #FDFD96;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+#css {
+    color: #AEC6CF;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+#html {
+    color: #FFA500;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+#lisp {
+    color: lightblue;
+    background-color: transparent;
+    font-size: 16px;
+}
+
 .typewriter {
     overflow: hidden;
     color: #a272cb;
@@ -143,4 +184,10 @@ th {
 a {
     text-align: center;
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    text-align: center;    
+    margin-left: -40px;
 }
