@@ -9,6 +9,7 @@ html {
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 /* Navbar Configuration */
@@ -23,10 +24,72 @@ nav {
 nav a {
     font-size: 20px;
     padding: 1rem;
-    border-radius: 1rem;
 }
 
 nav a:hover {
     cursor: pointer;
-    background: cyan;
+    text-decoration: underline #2f94ff;
+}
+
+/* About Me Configuration */
+
+.about-me {
+    /* margin-top: 15rem; */
+    justify-content: center;
+}
+
+.about-me h1 {
+    text-align: center;
+}
+
+.about-me h2 {
+    text-align: center;
+}
+
+.about-me p {
+    margin: 0 30%;
+}
+
+/* Projects Configuration */
+
+.projects {
+    /* margin-top: 40rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 41.5rem;
+    gap: 2rem;
+}
+
+.project {
+    width: 200px;
+    height: 250px;
+    border-radius: 1rem;
+    background: #2f94ff;
+}
+
+/* Contact Configuration */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact div i {
+    font-size: 3rem;
+}
+
+.contact div i:hover {
+    color: #2f94ff;
+    cursor: pointer;
 }
