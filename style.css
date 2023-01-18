@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    width: auto;
+}
+
+html {
+    font-family: 'JetBrains Mono', Courier, monospace;
+}
+
+.container {
+    display: flex;
+}
+
+/* Navbar Configuration */
+
+nav {
+    width: 100%;
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+nav a:hover {
+    cursor: pointer;
+    background: cyan;
+}
