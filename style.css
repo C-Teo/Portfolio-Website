@@ -54,6 +54,22 @@ nav a:hover {
     text-align: center;
 }
 
+.about-me h3 {
+    text-align: center;
+}
+
+.languages {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.about-me .languages i:hover {
+    color:#5193d9;
+    cursor: pointer;
+}
+
 .about-me p {
     margin: 0 30%;
 }

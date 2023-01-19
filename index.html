@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/f7c8be4779.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c3ef37b32c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="main.js"></script>
     <link href="style.css" rel="stylesheet">
     <title>Teo</title>
 </head>
@@ -19,8 +21,21 @@
         </nav>
         <div class="about-me">
             <h1>#> Teodor Cirstoiu _</h1>
+            <h2>Software Developer interested in <span class="auto-type" style="color:rgb(53, 128, 198);"></span>.</h2>
+            <span id="typed"></span>
             <h2>Usr/About Me</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <h3>Languages</h3>
+            <div class="languages">
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-solid fa-c"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-rust"></i>
+            </div>
+            <h3>Frameworks and Libraries</h3>
         </div>
         <div class="projects">
             <h2>Usr/Projects</h2>
@@ -66,8 +81,7 @@
             <h2>Usr/Contact</h2>
             <p>Click the icons to redirect!</p>
             <div class="social">
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-github"></i>
                 <i class="fa-brands fa-linkedin"></i>
                 <i class="fa-solid fa-square-envelope"></i>
             </div>
@@ -77,4 +91,12 @@
         </div>
     </div>
 </body>
+<script>
+    let typed = new Typed('.auto-type',{
+        strings:["^300Cybersecurity^1000","^300Machine Learning^1000","^300Artificial Intelligence^1000","^300Robotics^1000","^300Databases^1000","^300System Administration^1000",],
+        typeSpeed:40,
+        backSpeed:40,
+        loop: true,
+    });
+</script>
 </html>
