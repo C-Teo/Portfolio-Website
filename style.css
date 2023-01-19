@@ -13,17 +13,19 @@ h2 {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 .scroll-container {
     height: 100vh;
-    overflow-y: scroll;
+    scroll-snap-align: start;
+    border: solid white;
 }
 
 .header-label {
-    
+    margin-top: 20rem;
 }
 
 /* Navbar Configuration */
@@ -193,6 +195,9 @@ nav a:hover {
     color: white;
     text-align: center;
     padding: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
 }
 
 .footer h5 {
