@@ -12,6 +12,16 @@ h2 {
     font-weight: 900;
 }
 
+.label {
+    text-decoration: underline #2f94ff 3px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 .container {
     height: 100vh;
     overflow-y: scroll;
