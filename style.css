@@ -21,8 +21,10 @@ h2 {
 .scroll-container {
     height: 100vh;
     scroll-snap-align: start;
-    border: solid white;
-    padding-top: 5rem;
+    scroll-snap-stop: always;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Navbar Configuration */
