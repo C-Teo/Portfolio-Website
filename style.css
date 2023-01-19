@@ -12,6 +12,12 @@ h2 {
     font-weight: 900;
 }
 
+h5 {
+    margin: 0;
+    font-weight: 900;
+    color: white;
+}
+
 .label {
     text-decoration: underline #2f94ff 3px;
 }
@@ -113,7 +119,7 @@ nav a:hover {
 
 .project {
     width: 190px;
-    height: 250px;
+    height: 275px;
     border-radius: 1rem;
     background: #568bc3;
     display: flex;
