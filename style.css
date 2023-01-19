@@ -22,10 +22,7 @@ h2 {
     height: 100vh;
     scroll-snap-align: start;
     border: solid white;
-}
-
-.header-label {
-    margin-top: 20rem;
+    padding-top: 5rem;
 }
 
 /* Navbar Configuration */
@@ -53,7 +50,6 @@ nav a:hover {
 /* About Me Configuration */
 
 .about-me {
-    margin-top: 4rem;
     justify-content: center;
 }
 
