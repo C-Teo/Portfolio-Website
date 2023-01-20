@@ -160,7 +160,23 @@ input:checked + .slider:before {
 }
 
 .about-me p {
-    margin: 0 30%;
+    line-height: 0.5rem;
+}
+
+.purple {
+    color: #a83bbd;
+}
+
+.blue {
+    color: #5193d9;
+}
+
+.orange {
+    color: #e0b312;
+}
+
+.green {
+    color: #62b538;
 }
 
 /* Projects Configuration */
