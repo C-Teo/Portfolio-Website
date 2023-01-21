@@ -155,7 +155,6 @@ input:checked + .slider:before {
 }
 
 .about-me .icons i:hover {
-    color:#5193d9;
     cursor: pointer;
 }
 
