@@ -1,5 +1,10 @@
 var flag = true; // True is light theme, False is dark theme
 
+function onBootUp() {
+    flag = !flag;
+    switchTheme();
+}
+
 function switchTheme() {
     if (flag) {
         document.body.style.backgroundColor = "rgb(54, 54, 54)";

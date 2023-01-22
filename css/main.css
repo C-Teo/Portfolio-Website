@@ -196,13 +196,16 @@ input:checked + .slider:before {
     flex: 1;
 }
 
+.protect-container a:visited { text-decoration: none; color:black; }
+.project-container a { text-decoration: none; color:black; }
+
 /* Project Panel Configuration */
 
 .project {
     width: 190px;
     height: 275px;
     border-radius: 1rem;
-    background: #1a436c;
+    background: #6d9ece;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -285,6 +288,9 @@ input:checked + .slider:before {
     color: #2f94ff;
     cursor: pointer;
 }
+
+.social a:visited { text-decoration: none; color:black; }
+.social a { text-decoration: none; color:black; }
 
 /* Footer Configuration */
 
