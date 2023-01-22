@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/c3ef37b32c.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" id="home" class="navlink" style="margin-left: auto;">Home</a>
+        <label class="switch">
+            <input type="checkbox" onclick="switchTheme()">
+            <span class="slider"></span>
+        </label>
+    </nav>
+    <div class="highlighted-post">
+        <img src="images/sample.png">
+        <div class="preview">
+            <h3>Utilizing Oh-My-Posh and More to Customize your Terminal</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <div class="code-block">
+                <h5>
+                    <i class="fa-brands fa-windows" style="color:rgb(72, 131, 213);"></i>
+                    Powershell
+                </h5>
+                <code>
+                    This is some test text that is representing code...
+                </code>
+            </div>
+            <div class="code-block">
+                <h5>
+                    <i class="fa-solid fa-circle" style="color:rgb(213, 72, 72);"></i>
+                    <i class="fa-solid fa-circle" style="color:rgb(238, 177, 10);"></i>
+                    <i class="fa-solid fa-circle" style="color:rgb(84, 178, 84);"></i>
+                    Mac Terminal
+                </h5>
+                <code>
+                    This is some test text that is representing code...
+                </code>
+            </div>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.
+            </p>
+            <a style="color:blue;">continue reading here...</a>
+        </div>
+    </div>
+    <div class="blog-container">
+        <a><div class="blog-post">
+            <img src="images/teo-sprite.png">
+            <div class="title-author">
+                <h3>Setting up WSL and Deploying Wazuh Utilizing Docker</h3>
+                <h5>Teodor Cirstoiu <span style="color: gray;"> <> Updated Last: 21/01/2023</span></h5>
+            </div>
+        </div></a>
+        <a><div class="blog-post">
+            <img src="images/teo-sprite.png">
+            <div class="title-author">
+                <h3>My Personal Rules for making Productive Notes</h3>
+                <h5>Teodor Cirstoiu <span style="color: gray;"> <>Updated Last: 21/01/2023</span></h5>
+            </div>
+        </div></a>
+        <a><div class="blog-post">
+            <img src="images/teo-sprite.png">
+            <div class="title-author">
+                <h3>Guide and Roadmap to Getting Good at Leetcode</h3>
+                <h5>Teodor Cirstoiu <span style="color: gray;"> <>Updated Last: 21/01/2023</span></h5>
+            </div>
+        </div></a>
+    </div>
+    <div class="footer">
+        <h5 id="footer-text"><span id="copyright" style="color:rgb(32, 96, 174);"><i class="fa-regular fa-copyright"></i> 2023 Teodor Cirstoiu</span> - All Rights Reserved</h5>
+    </div>
+</body>
+</html>
