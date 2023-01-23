@@ -334,6 +334,12 @@ input:checked + .slider:before {
     margin: 0;
 }
 
+.preview a { width: 15rem }
+.preview a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .code-block {
     display: flex;
     flex-direction: column;
@@ -368,6 +374,7 @@ code {
 .blog-post {
     display: flex;
     border: solid;
+    border-radius: 8px;
 }
 
 .blog-post img {
@@ -379,8 +386,13 @@ code {
     margin-top: auto;
 }
 
+.blog-post:hover {
+    cursor: pointer;
+    border: solid 4px #478cd7;
+}
+
 .blog-post h5 {
-    color: #2f94ff;
+    color: #478cd7;
     margin-bottom: auto;
 }
 
